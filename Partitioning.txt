@@ -18,7 +18,7 @@ Types of Partitioning :
 
 	- Stores boot and partition information in the first 512 bytes of disk.
 	- Allows to create only four primary partitions. 
-	- If you want to create more than four , then one of primary partition will be 		  converted into extended partition.
+	- If you want to create more than four , then one of primary partition will be 	converted into extended partition.
 	- Under extended partition , you can create as many logical partitions as you want.
 	- Its critical drawback is that it only supports disks until 2TB.
 	- fdisk command is used to partition disks.
@@ -27,6 +27,6 @@ Types of Partitioning :
 	
 	- stores boot and partition information at different places across the disk.
 	- Allows to create 128 primary partitions.
-	- Each partition is assigned with GUID ( Globally Unique Identifier ) ensuring no 	  two partitions have same identity.
+	- Each partition is assigned with GUID ( Globally Unique Identifier ) ensuring no two partitions have same identity.
 	- GPT supports disks larger than 2TB.
 	- gdisk command is used to partition disks.
