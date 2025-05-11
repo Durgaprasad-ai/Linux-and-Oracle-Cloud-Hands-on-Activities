@@ -47,7 +47,7 @@
 >        - Automating the python, bash, any other scripts at scheduled times.
 
 
-> **Options for Structure :**
+## **Options for Structure :**
 >
 >  **'*'** - The asterisk operator means any value or always. If you have '*' in the hour field, it means the task will be executed for every hour.
  
